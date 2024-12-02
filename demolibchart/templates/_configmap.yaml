@@ -1,0 +1,10 @@
+{{- define "demolibchart.configmap.tpl" -}}
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ .Release.Name | printf "%s-%s" .Chart.Name }}
+data: {}
+{{- end -}}
+{{- define "demolibchart.configmap" -}}
+{{- include "demolibchart.util.merge" (append . "demolibchart.configmap.tpl") -}}
+{{- end -}}
