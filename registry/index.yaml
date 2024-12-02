@@ -9,6 +9,6 @@ entries:
     name: demolibchart
     type: library
     urls:
-    - https://Kouba91.github.io/demo-helm-template/demolibchart-0.1.0.tgz
+    - https://Kouba91.github.io/demo-helm-template/registry/demolibchart-0.1.0.tgz
     version: 0.1.0
 generated: "2024-12-02T22:36:14.282489+01:00"
